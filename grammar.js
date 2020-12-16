@@ -446,7 +446,7 @@ module.exports = grammar({
 
     assignment_statement: $ => seq(
       field('left', $.expression_list),
-      field('operator', choice(...assignment_operators)),
+      choice(...assignment_operators),
       field('right', $.expression_list)
     ),
 
@@ -751,7 +751,7 @@ module.exports = grammar({
     ),
 
     unary_expression: $ => prec(PREC.unary, seq(
-      field('operator', choice('+', '-', '!', '^', '*', '&', '<-')),
+      choice('+', '-', '!', '^', '*', '&', '<-'),
       field('operand', $._expression)
     )),
 
@@ -767,7 +767,7 @@ module.exports = grammar({
       return choice(...table.map(([precedence, operator]) =>
         prec.left(precedence, seq(
           field('left', $._expression),
-          field('operator', operator),
+          operator,
           field('right', $._expression)
         ))
       ));

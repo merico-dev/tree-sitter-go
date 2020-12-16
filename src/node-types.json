@@ -324,60 +324,6 @@
           }
         ]
       },
-      "operator": {
-        "multiple": false,
-        "required": true,
-        "types": [
-          {
-            "type": "%=",
-            "named": false
-          },
-          {
-            "type": "&=",
-            "named": false
-          },
-          {
-            "type": "&^=",
-            "named": false
-          },
-          {
-            "type": "*=",
-            "named": false
-          },
-          {
-            "type": "+=",
-            "named": false
-          },
-          {
-            "type": "-=",
-            "named": false
-          },
-          {
-            "type": "/=",
-            "named": false
-          },
-          {
-            "type": "<<=",
-            "named": false
-          },
-          {
-            "type": "=",
-            "named": false
-          },
-          {
-            "type": ">>=",
-            "named": false
-          },
-          {
-            "type": "^=",
-            "named": false
-          },
-          {
-            "type": "|=",
-            "named": false
-          }
-        ]
-      },
       "right": {
         "multiple": false,
         "required": true,
@@ -401,88 +347,6 @@
           {
             "type": "_expression",
             "named": true
-          }
-        ]
-      },
-      "operator": {
-        "multiple": false,
-        "required": true,
-        "types": [
-          {
-            "type": "!=",
-            "named": false
-          },
-          {
-            "type": "%",
-            "named": false
-          },
-          {
-            "type": "&",
-            "named": false
-          },
-          {
-            "type": "&&",
-            "named": false
-          },
-          {
-            "type": "&^",
-            "named": false
-          },
-          {
-            "type": "*",
-            "named": false
-          },
-          {
-            "type": "+",
-            "named": false
-          },
-          {
-            "type": "-",
-            "named": false
-          },
-          {
-            "type": "/",
-            "named": false
-          },
-          {
-            "type": "<",
-            "named": false
-          },
-          {
-            "type": "<<",
-            "named": false
-          },
-          {
-            "type": "<=",
-            "named": false
-          },
-          {
-            "type": "==",
-            "named": false
-          },
-          {
-            "type": ">",
-            "named": false
-          },
-          {
-            "type": ">=",
-            "named": false
-          },
-          {
-            "type": ">>",
-            "named": false
-          },
-          {
-            "type": "^",
-            "named": false
-          },
-          {
-            "type": "|",
-            "named": false
-          },
-          {
-            "type": "||",
-            "named": false
           }
         ]
       },
@@ -2214,40 +2078,6 @@
           {
             "type": "_expression",
             "named": true
-          }
-        ]
-      },
-      "operator": {
-        "multiple": false,
-        "required": true,
-        "types": [
-          {
-            "type": "!",
-            "named": false
-          },
-          {
-            "type": "&",
-            "named": false
-          },
-          {
-            "type": "*",
-            "named": false
-          },
-          {
-            "type": "+",
-            "named": false
-          },
-          {
-            "type": "-",
-            "named": false
-          },
-          {
-            "type": "<-",
-            "named": false
-          },
-          {
-            "type": "^",
-            "named": false
           }
         ]
       }
