@@ -6480,6 +6480,7 @@
       "_simple_type"
     ]
   ],
+  "precedences": [],
   "externals": [],
   "inline": [
     "_type",
